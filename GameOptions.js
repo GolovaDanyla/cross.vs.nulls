@@ -63,19 +63,7 @@ function botMove() {
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
-// function bClick(bName) {
-//     console.log(bName);
-//     const btn = document.getElementById(bName)
-//     if (btn.innerHTML == "X" || btn.innerHTML == "O") {
-//         console.log("is set word")
-//         return;
-//     } else {
-//         console.log("is Empty")
-//     }
-//     btn.innerHTML =  "X" ;
-//     btn.classList.add("active");
-//     btn.classList.add("active_X");
-// }
+
 
 function checkMap() {
     let block = document.querySelectorAll(".block");
