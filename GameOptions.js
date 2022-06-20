@@ -12,7 +12,7 @@ function Init() {
             }
             if (!this.classList.contains("active")) {
 
-                if (movePlayer) {
+                if (movePlayer) { // movePlayer
 
                     if (this.innerHTML === "") {
                         this.classList.add("active");
