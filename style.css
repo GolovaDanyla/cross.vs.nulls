@@ -1,0 +1,166 @@
+body {
+    background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2014/11/shutterstock_81989089-640x320.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    /* filter: opacity(0.5); */
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    /* width: 150px;
+    height: 150px; */
+    font-size: 11vw;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1vw #000;
+    margin: 1vw;
+    height: 14vw;
+}
+
+.container {
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.container-wrapper {
+    position: relative;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50vw;
+    height: 50vw;
+    
+}
+@media all {}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+.line111 {
+    background-color: red;
+    position: absolute;
+    width: 50vw;
+    height: 1vw;
+    left: 0vw;
+    top: 15%;
+}
+
+.line222 {
+    background-color: red;
+    position: absolute;
+    width: 50vw;
+    height: 1vw;
+    left: 0px;
+    top: 48%;
+}
+
+.line333 {
+    background-color: red;
+    position: absolute;
+    width: 50vw;
+    height: 1vw;
+    left: 0;
+    top: 80%;
+}
+
+.lineV111 {
+    background-color: red;
+    position: absolute;
+    width: 1vw;
+    height: 50vw;
+    left: 8vw;
+    top: 0%;
+}
+
+.lineV222 {
+    background-color: red;
+    position: absolute;
+    width: 1vw;
+    height: 50vw;
+    left: 25vw;
+    top: 0%;
+}
+
+.lineV333 {
+    background-color: red;
+    position: absolute;
+    width: 1vw;
+    height: 50vw;
+    left: 41vw;
+    top: 0%;
+}
+
+.line123 {
+    background-color: red;
+    position: absolute;
+    width: 66vw;
+    height: 1vw;
+    left: -8vw;
+    top: 25vw;
+    transform: rotate(45deg);
+}
+
+.line321 {
+    background-color: red;
+    position: absolute;
+    width: 66vw;
+    height: 1vw;
+    left: -8vw;
+    top: 25vw;
+    transform: rotate(-45deg);
+}
+
+.play {
+    text-align: center;
+    bottom: 3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.play>button {
+    font-size: 14pt;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    border: 0;
+    box-shadow: 2px 3px 15px black;
+    margin: 1rem;
+}
+
+.text {
+    color: white;
+    font-size: 36pt;
+    text-shadow: 2px 2px 5px black;
+    padding: 1rem;
+}
+
+.Cross {
+    position: absolute;
+    z-index: 1;
+}
